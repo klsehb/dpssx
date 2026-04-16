@@ -1,9 +1,8 @@
 # DPSSX
 Dataset and code for "DPSSX: Detecting and Preventing SQLi and Stored XSS Induced by Expressions in Web Application SQL Statements via Static-Dynamic Analysis"  
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/a00780f9-6e01-4524-8d98-4abfb0cdfdd9)
+<img width="462" height="319" alt="image" src="https://github.com/user-attachments/assets/26246745-7672-4efa-aea0-0582774417c4" />
 
-Moreover, there are 4 videos in the directory "7.Guide videos for automation". They describe the process of automation in four stages using bwapp web application as an example: converting original web apps to tagged web apps, automated capturing requests, automated attacking by sqlmap, and automatic result aggregation.
 
 
 ###  1. Web Application Deployment
@@ -13,9 +12,10 @@ DVWA, short for Damn Vulnerable Web Application, is a web application intentiona
    #### 1.2 XAMPP Installation 
 XAMPP is a bundled package for PHP debugging environment that includes the necessary "PHP+MySQL+Apache" services.  
 Download link: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/  
-For the 12 web applications, you will need to download two versions of XAMPP (PHP7 and PHP5). It is recommended to download PHP7.4.18 and PHP5.4.13.  
+For the 20 web applications, you will need to download two versions of XAMPP (PHP7 and PHP5). It is recommended to download PHP7.4.18 and PHP5.4.13.  
 DVWA needs to be deployed in the PHP7 environment (the other 11 applications are already categorized). Download PHP7.4.18, click "next" to proceed with the default configuration, modify the installation path, and then run xampp-control.exe.  
-   ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/8402edd1-b144-4ce4-9c7d-93adc44db1f3)
+<img width="1138" height="628" alt="image" src="https://github.com/user-attachments/assets/8a3da820-4472-4f00-abdb-2ecc7f54db67" />
+
 
 Running Apache and MySQL services, the "Ports" refer to the ports on which the services are started. You can modify the corresponding ports through the configuration settings. In the image above, Apache is associated with port 8080, while MySQL is associated with port 3306. To access the services, you can visit localhost:port in your web browser. If you see the following page, it indicates that the installation was successful.  
 ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/40717b44-1d80-4490-b2d3-1498f8457ec9)
