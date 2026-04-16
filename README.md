@@ -181,7 +181,7 @@ It should be noted that when executing demo.py, all the configuration files and 
    Double-click to open the graphical interface of JSQLi. The usage method is relatively simple: you need to fill in the GET and POST input boxes. The GET field requires the request path, while the POST field includes parameters carried in a POST request. If the request method is POST, then it is necessary to fill in the parameters. After filling in the required information, click on the arrow inside the red box on the right to initiate the injection attack. Once the attack is completed, feedback with the result information will be provided.  
    ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/efd39321-e6b6-4862-9386-89212e010715)
 
-   #### 4.4 BruteXSS
+   #### 4.5 BruteXSS
    Open the brutexss folder, create a dvwa.bat file, and simultaneously open the txt file under the request folder. Write the URL and data into the bat file in the following format:
    COMMAND: python brutexss.py -m <METHOD> -u <URL> -t <WORDLIST> -d <DATA>
    METHOD: (G)ET & (P)OST
