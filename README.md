@@ -14,14 +14,13 @@ XAMPP is a bundled package for PHP debugging environment that includes the neces
 Download link: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/  
 For the 20 web applications, you will need to download two versions of XAMPP (PHP7 and PHP5). It is recommended to download PHP7.4.18 and PHP5.4.13.  
 DVWA needs to be deployed in the PHP7 environment (the other 19 applications are already categorized). Download PHP7.4.18, click "next" to proceed with the default configuration, modify the installation path, and then run xampp-control.exe.  
-<img width="1138" height="628" alt="image" src="https://github.com/user-attachments/assets/8a3da820-4472-4f00-abdb-2ecc7f54db67" />
-
+![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/8402edd1-b144-4ce4-9c7d-93adc44db1f3)
 
 Running Apache and MySQL services, the "Ports" refer to the ports on which the services are started. You can modify the corresponding ports through the configuration settings. In the image above, Apache is associated with port 8080, while MySQL is associated with port 3306. To access the services, you can visit localhost:port in your web browser. If you see the following page, it indicates that the installation was successful.  
 ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/40717b44-1d80-4490-b2d3-1498f8457ec9)
 
 You can click on the "phpMyAdmin" link in the top right corner to access the database management interface. All the web application tested are listed in the Table as follows.  
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/929e5624-09dc-44bb-9942-c1230e8a5c5d)
+<img width="1138" height="628" alt="image" src="https://github.com/user-attachments/assets/8a3da820-4472-4f00-abdb-2ecc7f54db67" />
 
    #### 1.3 Deployment Access
 Move the "dvwa1" folder (source code of DVWA) to the "htdocs" directory under the XAMPP root, and then modify the configuration file "config.php" within the "dvwa1" folder. Each web application typically has a configuration file, and with the exception of "petshop," which requires configuring the root directory, all other applications only need modifications for the database access address, database name, login user, and login password.  
@@ -190,6 +189,7 @@ It should be noted that when executing demo.py, all the configuration files and 
    WORDLIST: wordlist.txt
    POST DATA: parameter=value&parameter1=value1
    Modify the tool_name of detect-injection to brutexss, and run the bat file.
+   
    <img width="441" height="41" alt="2078ca32e82e2e35f445e591ed6dd07e" src="https://github.com/user-attachments/assets/7a59be40-3639-4d23-a99c-7a235bb3f3bc" />
 
 
