@@ -7,13 +7,13 @@ Dataset and code for "DPSSX: Detecting and Preventing SQLi and Stored XSS Induce
 
 ###  1. Web Application Deployment
    #### 1.1 Overview
-DVWA, short for Damn Vulnerable Web Application, is a web application intentionally designed with numerous vulnerabilities. It is developed using PHP and MySQL and serves as a legitimate environment for security professionals to test their tools and skills. We takes DVWA as an example, while the operational steps for the other 11 applications are similar to DVWA with minor differences.
+DVWA, short for Damn Vulnerable Web Application, is a web application intentionally designed with numerous vulnerabilities. It is developed using PHP and MySQL and serves as a legitimate environment for security professionals to test their tools and skills. We takes DVWA as an example, while the operational steps for the other 19 applications are similar to DVWA with minor differences.
    
    #### 1.2 XAMPP Installation 
 XAMPP is a bundled package for PHP debugging environment that includes the necessary "PHP+MySQL+Apache" services.  
 Download link: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/  
 For the 20 web applications, you will need to download two versions of XAMPP (PHP7 and PHP5). It is recommended to download PHP7.4.18 and PHP5.4.13.  
-DVWA needs to be deployed in the PHP7 environment (the other 11 applications are already categorized). Download PHP7.4.18, click "next" to proceed with the default configuration, modify the installation path, and then run xampp-control.exe.  
+DVWA needs to be deployed in the PHP7 environment (the other 19 applications are already categorized). Download PHP7.4.18, click "next" to proceed with the default configuration, modify the installation path, and then run xampp-control.exe.  
 <img width="1138" height="628" alt="image" src="https://github.com/user-attachments/assets/8a3da820-4472-4f00-abdb-2ecc7f54db67" />
 
 
