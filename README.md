@@ -46,10 +46,10 @@ For the "Petshop" application, unlike the other 11 applications, the configurati
  
  (1) By default, Fiddler can only listen to HTTP requests. To capture HTTPS request packets, you need to make some settings. The setting path is: Tools->Options->HTTPS.
  
-   ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/2ce88026-9103-4857-b2b8-f3511fe9aed6)
-   ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/165f2bc2-b536-4699-bacf-b03906509d28)
-   ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/e8aef8d2-f7cf-4599-adec-6c83ce971c5d)
-   ![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/cc6bb10f-b0ec-4709-85e3-42c08479e8dc)
+   <img width="1122" height="627" alt="cb3af48da4c523e31f8e6522b5e61759" src="https://github.com/user-attachments/assets/20e8f331-bced-42a1-9084-36f1280c6c4b" />
+   <img width="1452" height="645" alt="62bcc8efaf90b1a1288a47b3d085c5b2" src="https://github.com/user-attachments/assets/2d839d08-3b51-4499-be02-04d4fa1cfa65" />
+   <img width="1101" height="627" alt="9d55b2ac5d77b37932f256da0d20f03c" src="https://github.com/user-attachments/assets/755caca1-7f85-428f-bcb6-bf46b93c07f9" />
+   <img width="1446" height="558" alt="ede1cd4649136857620599ce385391bf" src="https://github.com/user-attachments/assets/f889c6a8-8991-4ee4-8f4a-b51156a3e2b6" />
 
    Then Open the Chrome browser and import the certificate in the browser. Restart browser, restart Fiddler (reset certificate)
    
@@ -57,7 +57,7 @@ For the "Petshop" application, unlike the other 11 applications, the configurati
 
    1）Set the path: Rules->Customize
    
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/4e344966-24dd-4684-afed-cc41e743769b)
+<img width="1682" height="906" alt="964c196298facfb6601d95e13b4fa5a4" src="https://github.com/user-attachments/assets/d9946003-e676-4711-88b4-7bfb66a1fde6" />
 
 Press Ctrl+F to find the function OnBeforeRequest, and add the following script to this function.
 
@@ -75,7 +75,7 @@ Press Ctrl+F to find the function OnBeforeRequest, and add the following script 
 12.	            file.close();  
 13.	        }  
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/7830c13c-bd4b-4feb-a343-84966d88b120)
+<img width="1320" height="886" alt="9984d7b956db9409103ac95ce3ae18d7" src="https://github.com/user-attachments/assets/0ffc8def-0885-487f-9b27-66fdb540a178" />
 
 Then find the function OnBeforeResponse, and add the following script to this function.
 
@@ -94,7 +94,7 @@ Then find the function OnBeforeResponse, and add the following script to this fu
 13.	            file.close();  
 14.	        }  
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/5891b655-1324-46c9-a248-1edc8864cfd9)
+<img width="1320" height="886" alt="9984d7b956db9409103ac95ce3ae18d7" src="https://github.com/user-attachments/assets/7382b717-4417-4258-ba7d-2fb593d7b173" />
 
 （3）Run demo.py to get the request automatically.
 
@@ -108,19 +108,19 @@ The installation of other uninstalled libraries is similar to the above code.
 
 【Step 2】: Install the chromedriver driver.
 
-First of all, we need to check our own version of Google browser, enter chrome://version/ in the search box, and see that my browser version is 100.0.4896.75 (official version).
+First of all, we need to check our own version of Google browser, enter chrome://version/ in the search box, and see that my browser version is 147.0.7727.56 (official version).
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/492b4a39-d629-47f3-8733-204455970849)
+<img width="2037" height="873" alt="658e01ca74e2dec6656a43057c1820e3" src="https://github.com/user-attachments/assets/71f58008-ceed-4c61-ae15-3288432ad309" />
 
 Subsequently, enter the website https://registry.npmmirror.com/binary.html?. Path=chromedriver/ Just choose the corresponding version of the driver to download.
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/3f0b764b-2ca0-42af-8f1d-f1baf5c827a1)
+<img width="1536" height="1119" alt="1f11a44f0c0773dae018be1ddbef6967" src="https://github.com/user-attachments/assets/ac5e0b76-c2e5-4094-bee0-aabcb7b86c15" />
 
 Decompress after downloading, put the driver in the startup directory of Google browser, and then configure its address into the environment variable.
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/8800c5c7-04ba-4bb4-97a3-3bb65674113e)
+<img width="2181" height="960" alt="3803332363991aed21d90e99a5cba8c4" src="https://github.com/user-attachments/assets/3650866c-0f56-4e99-94b2-16d0aa5900bb" />
 
-![image](https://github.com/KLSEHB/SQLPsdem/assets/142284636/3373115c-28c7-4525-a3b0-bfee0ab4a2cf)
+<img width="2043" height="1004" alt="54cd275ca08e00540172f9be422cb9d7" src="https://github.com/user-attachments/assets/88f46324-0f42-41e0-b464-a533e8686007" />
 
 【Step 3】: Execute demo.py
 
